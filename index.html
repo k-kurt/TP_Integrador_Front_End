@@ -78,73 +78,107 @@
     <main>
       <!-- imagen de fondo con texto -->
       <section class="imagencontexto">
-      <div class="card text-bg-dark">
-        <img class="imagenfondocontexto" src="img/ba1.jpg" class="card-img" alt="ba1" style="opacity: .5;"/>
+        <div class="card text-bg-dark">
+          <img
+            class="imagenfondocontexto"
+            src="img/ba1.jpg"
+            class="card-img"
+            alt="ba1"
+            style="opacity: 0.5"
+          />
 
-        <div
-          class="card-img-overlay text-end d-flex flex-column mb-3 align-items-end justify-content-end"
-        >
-          <h2 class="card-title">Conf Bs As</h2>
-          <p class="card-text  text-white">
-            Bs As llega por primera vez a Argentina. Un evento para compartir
-            con <br />
-            nuestra comunidad al conocimiento y experiencia de los expertos que
-            <br />
-            están creando el futuro de internet. Ven a conocer a miembros del
-            <br />
-            evento, a otros estudiantes de Codo a Codo y los oradores de primer
-            <br />
-            nivel que tenemos para ti. Te esperamos!
-          </p>
-          <div>
-            <button type="button" class="btn btn-outline-light">Quiero ser obrador</button>
-            <button type="button" class="btn btn-success">Comprar tickets</button>
-          
+          <div
+            class="card-img-overlay text-end d-flex flex-column mb-3 align-items-end justify-content-end"
+          >
+            <h2 class="card-title">Conf Bs As</h2>
+            <p class="card-text text-white">
+              Bs As llega por primera vez a Argentina. Un evento para compartir
+              con <br />
+              nuestra comunidad al conocimiento y experiencia de los expertos
+              que
+              <br />
+              están creando el futuro de internet. Ven a conocer a miembros del
+              <br />
+              evento, a otros estudiantes de Codo a Codo y los oradores de
+              primer
+              <br />
+              nivel que tenemos para ti. Te esperamos!
+            </p>
+            <div>
+              <button type="button" class="btn btn-outline-light">
+                Quiero ser obrador
+              </button>
+              <button type="button" class="btn btn-success">
+                Comprar tickets
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- SECCION ORADORES -->
-    <section class="oradores">
-      <!-- texto -->
-      <article class="textooradores">
+      </section>
+      <!-- SECCION ORADORES -->
+      <section class="oradores">
+        <!-- texto -->
+        <article class="textooradores text-center">
+          <p>CONOCE A LOS</p>
+          <h2>ORADORES</h2>
+        </article>
+        <!-- cards -->
+        <article class="cardsoradoresr container">
+          <!--  d-xl-flex justify-content-xl-evenly d-lg-flex justify-content-lg-evenly container -->
+          <!-- cards1 -->
+          <div class="row justify-content-evenly">
+            <div class="card col-sm-12" style="width: 18rem">
+              <img src="img/steve.jpg" class="card-img-top" alt="steve jobs" />
+              <div class="card-body">
+               <!-- <span class="text-bg-warning p-3">JavaScript</span><span class="text-bg-warning p-3" style="margin-left: 1em;">React</span> -->
+               <button type="button" class="btn btn-warning btn-sm" disabled>JavaScript</button>
+               <button type="button" class="btn btn-primary btn-sm" disabled>React</button>
+                <h3 class="card-title">Steve Jobs</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                  voluptatibus perferendis deleniti, tomtam fuga sequi iste!
+                  Facilis explicabo repellat ut similique incidunt? Ullam nobis
+                  beatae, corporis facilis veniam magni ratione!
+                </p>
+              </div>
+            </div>
 
-      </article>
-      <!-- cards -->
-      <article class="cardsoradores">
-        <!-- cards1 -->
-        <div class="card" style="width: 18rem;">
-          <img src="img/steve.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!-- cards2 -->
+
+            <div class="card col-sm-12" style="width: 18rem">
+              <img src="img/bill.jpg" class="card-img-top" alt="bill gates" />
+              <div class="card-body">
+                <button type="button" class="btn btn-warning btn-sm" disabled>JavaScript</button>
+               <button type="button" class="btn btn-primary btn-sm" disabled>React</button>
+                <h3 class="card-title">Bill Gates</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                  voluptatibus perferendis deleniti, tomtam fuga sequi iste!
+                  Facilis explicabo repellat ut similique incidunt? Ullam nobis
+                  beatae, corporis facilis veniam magni ratione!
+                </p>
+              </div>
+            </div>
+
+            <!-- cards3 -->
+
+            <div class="card col-sm-12" style="width: 18rem">
+              <img src="img/ada.jpeg" class="card-img-top" alt="ada lovelace" />
+              <div class="card-body">
+                <button type="button" class="btn btn-secondary btn-sm" disabled>Negocios</button>
+                <button type="button" class="btn btn-danger btn-sm" disabled>Startups</button>
+                <h3 class="card-title">Ada Lovelace</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                  voluptatibus perferendis deleniti, tomtam fuga sequi iste!
+                  Facilis explicabo repellat ut similique incidunt? Ullam nobis
+                  beatae, corporis facilis veniam magni ratione!
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- cards2 -->
-        <div class="card" style="width: 18rem;">
-          <img src="img/bill.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <!-- cards3 -->
-        <div class="card" style="width: 18rem;">
-          <img src="img/ada.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </article>
-
-    </section>
-
-
-
+        </article>
+      </section>
     </main>
 
     <script
