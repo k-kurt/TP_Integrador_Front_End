@@ -117,7 +117,7 @@
       </section>
       <!-- FIN SECCION -->
       <!-- SECCION ORADORES -->
-      <section class="oradores">
+      <section class="oradores" style="margin: 1em 0 1em 0">
         <!-- texto -->
         <article class="textooradores text-center">
           <p>CONOCE A LOS</p>
@@ -182,32 +182,50 @@
       </section>
       <!-- FIN SECCION -->
       <!-- seccion imagenes -->
-      <section>
+      <section style="margin: 1em 0 1em 0">
         <article class="imagenytexto">
           <div class="imagencontexto row">
-          <div class="parteimagen col">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/honolulu.jpg" class="d-block w-100" alt="honolulu">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/hawaii.jpg" class="d-block w-100" alt="hawaii">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/hawaii2.jpg" class="d-block w-100" alt="hawaii2">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/hawaii3.jpg" class="d-block w-100" alt="hawaii3">
+            <div class="parteimagen col">
+              <div
+                id="carouselExampleSlidesOnly"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="img/honolulu.jpg"
+                      class="d-block w-100"
+                      alt="honolulu"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/hawaii.jpg"
+                      class="d-block w-100"
+                      alt="hawaii"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/hawaii2.jpg"
+                      class="d-block w-100"
+                      alt="hawaii2"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/hawaii3.jpg"
+                      class="d-block w-100"
+                      alt="hawaii3"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="partetexto col text-bg-secondary p-3">
-            <h2>
-              Bs As - Octubre
-            </h2>
-           <!--  <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+            <div class="partetexto col text-bg-secondary p-3">
+              <h2>Bs As - Octubre</h2>
+              <!--  <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">Bs As - Octubre</h5>
                 <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
@@ -217,17 +235,140 @@
                 </p>
               </div>
             </div> -->
-            <p>
-              Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
-              Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de 
-              Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado
-              de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad(aproximadamente 600 km<sup>2</sup> de superficie.)
-            </p>
+              <p>
+                Buenos Aires es la provincia y localidad más grande del estado
+                de Argentina, en los Estados Unidos. Honolulu es la más sureña
+                de entre las principales ciudades estadounidenses. Aunque el
+                nombre de Honolulu se refiere al área urbana en la costa sureste
+                de la isla de Oahu, la ciudad y el condado de Honolulu han
+                formado una ciudad-condado consolidada que cubre toda la
+                ciudad(aproximadamente 600 km<sup>2</sup> de superficie.)
+              </p>
+              <button type="button" class="btn btn-outline-light">
+                Conocé más
+              </button>
+            </div>
           </div>
-        </div>
+        </article>
+      </section>
+      <!-- FIN SECCION -->
+      <!-- INICIO SECCION CONVIERTETE EN ORADOR-->
+
+      <section class="converorador" style="margin: 1em 0 1em 0">
+        <article>
+          <div class="container">
+            <div class="text-center">
+              <span>CONVIÉRTETE EN UN</span>
+              <h2>ORADOR</h2>
+              <p style="margin-bottom: 1em">
+                Anótate como orador para dar una
+                <a href="#" style="text-decoration-style: dotted; color: black"
+                  >charla ignite</a
+                >. Cuéntanos de qué quieres hablar!
+              </p>
+            </div>
+            <div class="row justify-content-center">
+              <!-- formulario -->
+              <div class="col" style="margin-bottom: 1em">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre"
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Apellido"
+                  aria-label="Last name"
+                />
+              </div>
+              <!-- campo de texto -->
+              <div class="form-floating" style="margin-bottom: 1em">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 12em"
+                ></textarea>
+                <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
+              </div>
+              <!-- texto -->
+              <span class="fw-light"
+                >Recuerda incluir un titulo para tu charla</span
+              >
+              <!-- boton -->
+              <div class="d-grid gap-2" style="margin: 1em 0 1em 0">
+                <button class="btn btn-success" type="button">Button</button>
+              </div>
+            </div>
+          </div>
         </article>
       </section>
     </main>
+
+    <footer class="container-fluid bg-primary">
+      <section class="container" style="padding-top: 1em;">
+        <div class="row align-content-between" style="height: auto;">
+          <div class="col ">
+            <p><a class="text-decoration-none text-white" href="#">Preguntas<br>Frecuentes</a></p>
+          </div>
+          <div class="col">
+            <a class="text-decoration-none text-white" href="#">Contáctanos</a>
+          </div>
+          <div class="col ">
+            <a class="text-decoration-none text-white" href="#">Prensa</a>
+          </div>
+          <div class="col">
+            <a class="text-decoration-none text-white" href="#">Conferencias</a>
+          </div>
+          <div class="col">
+            <p><a class="text-decoration-none text-white" href="#">Términos y<br>condicines</a></p>
+          </div>
+          <div class="col">
+            <a class="text-decoration-none text-white" href="#">Privacidad</a>
+          </div>
+          <div class="col">
+            <a class="text-decoration-none text-white" href="#">Estudiantes</a>
+          </div>
+        </div>
+      </section>
+      <!-- <ul class="row p-5 justify-content-center bg-secondary text-decoration-none">
+        <ul>
+        <li class="text-decoration-none">
+          <a class="text-white "  href="#">Preguntas</a>
+        </li>
+        <li class="text-decoration-none">
+          <a class="text-white " href="#">frecuentes</a>
+        </li>
+      </ul>
+        <li class="text-decoration-none">
+          <a class="text-white " href="#">Contáctanos</a>
+        </li>
+        <li class="text-decoration-none">
+          <a class="text-white " href="#">Prensa</a>
+        </li>
+        <li class="text-white text-decoration-none">
+          <a class=""  href="#">Conferencias</a>
+        </li>
+        <ul>
+          <li class="text-decoration-none">
+            <a class="text-white "  href="#">Términos y</a>
+          </li>
+          <li class="text-decoration-none">
+            <a class="text-white " href="#">condiciones</a>
+          </li>
+        </ul>
+        <li class="text-decoration-none">
+          <a class="text-white " href="#">Privacidad</a>
+        </li>
+        <li class="text-decoration-none">
+          <a class="text-white " href="#">Estudiantes</a>
+        </li>
+      </ul> -->
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
