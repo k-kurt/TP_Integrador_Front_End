@@ -4,7 +4,9 @@ const datos={
     correo:'',
     seleccion:'',
     precio:'',
-    cantidad:''
+    cantidad:'',
+    borrar:'',
+    formulario:''
 
    
    
@@ -30,7 +32,8 @@ const seleccion = document.querySelector('#seleccion');
 const precio = document.querySelector('#precio');
 const cantidad = document.querySelector('#cantidad');
 const resumen = document.querySelector('#resumen');
-
+const borrar=document.querySelector('#borrar');
+const formulario=document.querySelector('#formulario');
 
 
 
@@ -66,6 +69,10 @@ precio.addEventListener('change', function(e){
 
 
 
+function totalApagar(){
+    
+
+
 resumen.addEventListener('click', function(e){  
     
      datos.resumen=e.target.value;
@@ -98,6 +105,24 @@ resumen.addEventListener('click', function(e){
 });
 
 
+};
 
+
+totalApagar();
+
+
+borrar.addEventListener('click', function(e){
+    datos.borrar=e.target.value;
+    /* console.log("hola"); */
+  /*  datos.formulario.reset(); */
+
+   document.getElementById('nombre').value="";
+   document.getElementById('apellido').value="";
+   document.getElementById('correo').value="";
+   document.getElementById('cantidad').value="";
+   document.getElementById('precio').value="";
+   
+
+});
 
 

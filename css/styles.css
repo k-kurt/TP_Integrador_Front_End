@@ -37,11 +37,15 @@ html{
    
 }
 
+.descuento{
+    font-size: 1em;
+    font-weight: bold;
+}
 
 
-
-
-
+.documentacion{
+    font-size: .8em;
+}
 @media screen and (max-width:320px) {
    .codoacodo{
         font-size: .7em;
