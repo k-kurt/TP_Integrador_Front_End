@@ -18,15 +18,29 @@ html{
 .partetexto.col.text-bg-secondary.p-3{
     padding: 0px;
 } 
-.imagencontexto.row{
-
-}
 
 .imagenytexto{
     width: 100%;
     padding: 0px;
     margin: 0px;
 }
+
+
+.botonesFormulario{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonResumen, .botonBorrar{
+    width: 49%;
+    margin: 1em 0;
+   
+}
+
+
+
+
+
 
 @media screen and (max-width:320px) {
    .codoacodo{
@@ -38,8 +52,7 @@ html{
   
 
 }
-   
-   
+
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .imagenfondocontexto{
